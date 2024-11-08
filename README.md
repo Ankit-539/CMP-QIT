@@ -1,6 +1,6 @@
 # CMP-QIT
 
-This repo contains codes for the computations done in the paper [On random classical marginal problems with applications to quantum information theory](https://arxiv.org/abs/2406.14153).
+This repository contains codes for the computations done in the paper [On random classical marginal problems with applications to quantum information theory](https://arxiv.org/abs/2406.14153).
 
 There are 3 example jupyter notebooks provided for the triangle ($K_3$), $K_4$ and $K_3 \cup 2K_1$ graphs. Each of these notebooks shows a step-by-step method to :
 * Getting the H-representation of a Correlation Polytope from the V-representation

@@ -10,5 +10,10 @@ There are 3 example jupyter notebooks provided for the triangle ($K_3$), $K_4$ a
 * The file for $K_3 \cup 2K_1$ also shows how to save the V-representation of any given slice as a txt file to be used for computing volumes using Polymake in Julia.
 
 To modify these codes for any general graph, the following changes need to be made :
-* For plotting the graph using networkx, change the lines using the methods _add_nodes_from and _add_edges_from to contain the list of your vertices and edges.
-* Change *t_nm to number of vertices in your graph and *cor to number of 
+* For plotting the graph using networkx, change the lines using the methods *add_nodes_from* and *add_edges_from* to contain the list of your vertices and edges.
+* Change *t_nm* to number of vertices in your graph and *cor* to the edges of your graph.
+* When updating A1 remove all the vertices after their values have been substituted.
+
+The codes will then give plots for any general graph based on the value of the above variables.
+
+There is a Julia file (*vol.jl*) that can be used to read the txt files generated from these notebooks and compute the volume ratio of the slices using Polymake.

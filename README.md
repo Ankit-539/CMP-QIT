@@ -11,4 +11,4 @@ There are 3 example jupyter notebooks provided for the triangle ($K_3$), $K_4$ a
 
 To modify these codes for any general graph, the following changes need to be made :
 * For plotting the graph using networkx, change the lines using the methods _add_nodes_from and _add_edges_from to contain the list of your vertices and edges.
-* Change _t_nm to number of vertices in your graph and _cor to number of 
+* Change *t_nm to number of vertices in your graph and *cor to number of 

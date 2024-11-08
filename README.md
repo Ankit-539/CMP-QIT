@@ -10,3 +10,4 @@ There are 3 example jupyter notebooks provided for the triangle ($K_3$), $K_4$ a
 * The file for $K_3 \cup 2K_1$ also shows how to save the V-representation of any given slice as a txt file to be used for computing volumes using Polymake in Julia.
 
 To modify these codes for any general graph, the following changes need to be made :
+
